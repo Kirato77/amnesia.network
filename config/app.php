@@ -56,6 +56,8 @@ return [
 
     'asset_url' => env('ASSET_URL', null),
 
+    'description' => "Amnesia Network's official website. Learn about us and our products.",
+
     /*
     |--------------------------------------------------------------------------
     | Application Timezone
