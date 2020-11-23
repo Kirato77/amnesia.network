@@ -43,7 +43,7 @@ return [
                 "github" => "Eroxyz",
                 "twitter" => "eroxyzz",
                 "reddit" => "Eroxyzz",
-                "twitch" => "notEroxyz"
+                "twitch" => "eroxyzz"
             ]
         ],
         [
@@ -128,6 +128,14 @@ return [
                 "Thick, high tack and durable.",
             "image" => "transparent",
             "images" => 2
+        ],
+        [
+            "name" => "Keyring",
+            "description" => "A transparent plastic keyring with Amnesia Network's logo.\n\n\n" .
+                "Keep it on your keychain and show your support!\n\n" .
+                "Small and solid.",
+            "image" => "keyring",
+            "images" => 3
         ],
         [
             "name" => "Magnet",

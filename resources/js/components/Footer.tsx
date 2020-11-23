@@ -21,6 +21,9 @@ const Footer: FunctionComponent = () => {
                     </div>
                 </div>
             </Container>
+            <div class="text-center">
+                <a class="text-gray-700 text-sm" href="https://github.com/Amnesia-Network/amnesia.network/blob/master/LICENSE" target="_blank">Copyright (c) Amnesia Network</a>
+            </div>
         </div>
     )
 }

@@ -35120,7 +35120,9 @@ const Footer = () => {
                 preact_1.h("div", { class: "flex justify-end" },
                     preact_1.h(Link_1.default, { class: "ml-2 transition-all transform text-gray-500 hover:text-blue-500 dark:hover:text-blue-500 hover:-translate-y-px hover:scale-110", type: "jundao", href: "https://jundao.app" }),
                     preact_1.h(Link_1.default, { class: "ml-2 transition-all transform text-gray-500 hover:text-blue-500 dark:hover:text-blue-500 hover:-translate-y-px hover:scale-110", type: "github", href: "https://github.com/amnesia-network" }),
-                    preact_1.h(Link_1.default, { class: "ml-2 transition-all transform text-gray-500 hover:text-blue-500 dark:hover:text-blue-500 hover:-translate-y-px hover:scale-110", type: "twitter", href: "https://twitter.com/amnesia_network" }))))));
+                    preact_1.h(Link_1.default, { class: "ml-2 transition-all transform text-gray-500 hover:text-blue-500 dark:hover:text-blue-500 hover:-translate-y-px hover:scale-110", type: "twitter", href: "https://twitter.com/amnesia_network" })))),
+        preact_1.h("div", { class: "text-center" },
+            preact_1.h("a", { class: "text-gray-700 text-sm", href: "https://github.com/Amnesia-Network/amnesia.network/blob/master/LICENSE", target: "_blank" }, "Copyright (c) Amnesia Network"))));
 };
 exports.default = Footer;
 
