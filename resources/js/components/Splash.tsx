@@ -1,6 +1,7 @@
 import {FunctionComponent, h, Fragment} from "preact";
 import {useEffect} from "preact/hooks";
 import {tsParticles} from "tsparticles";
+import Wave from "react-wavify";
 
 interface SplashProps {
     full?: boolean,
@@ -107,10 +108,19 @@ const Splash: FunctionComponent<SplashProps> = (props) => {
                     </div>
                 </div>
 
-                <svg class='wave text-gray-100 dark:text-gray-900 transition-colors' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                    <path fill="currentColor" fill-opacity="1" d="M0,96L48,101.3C96,107,192,117,288,112C384,107,480,85,576,90.7C672,96,768,128,864,138.7C960,149,1056,139,1152,128C1248,117,1344,107,1392,101.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"/>
-                </svg>
-                <div class="bg-gray-100 dark:bg-gray-900 -mt-4 transition-colors">
+                <div className='wave text-gray-100 dark:text-gray-900 transition-colors'>
+                    {/* @ts-ignore Doesn't have valid typings */}
+                    <Wave fill='currentColor'
+                          options={{
+                              height: 40,
+                              amplitude: 45,
+                              speed: 0.2,
+                              points: 3
+                          }}
+                    />
+                </div>
+
+                <div class="bg-gray-100 dark:bg-gray-900 -mt-2 pt-28 transition-colors">
                     {props.children}
                 </div>
             </div>
