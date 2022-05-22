@@ -10,8 +10,8 @@ const Jeremy: FunctionComponent = () => {
                 <div>
                     <img class="rounded-full h-32 w-32 mb-6 text-center mx-auto" src="/assets/jer3m01.png"/>
                     <div class="text-4xl text-center font-mono font-extrabold text-gray-900 dark:text-white">jer3m01</div>
-                    <div class="mt-2 text-xl text-center font-mono font-bold text-gray-900 dark:text-white">Jeremy Bagnall</div>
-                    <div class='text-xl text-center text-gray-600 dark:text-gray-200 font-inter font-medium mt-2'>CEO - Founder</div>
+                    {/*<div class="mt-2 text-xl text-center font-mono font-bold text-gray-900 dark:text-white">Jeremy Bagnall</div>*/}
+                    {/*<div class='text-xl text-center text-gray-600 dark:text-gray-200 font-inter font-medium mt-2'>CEO - Founder</div>*/}
                 </div>
                 <div class="md:ml-8 md:mt-0 mt-8 md:border-l-4 md:border-t-0 border-t-4 border-gray-200 dark:border-gray-700 md:pl-8 md:pt-0 pt-8 flex flex-col justify-between">
                     <Quote>
