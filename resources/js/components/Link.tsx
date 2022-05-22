@@ -32,7 +32,7 @@ const Link: FunctionComponent<LinkProps> = (props) => {
             break;
 
         case "jundao":
-            icon = <svg width="100%" height="100%" viewBox="0 0 1086 1086" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+            icon = <svg width="36" height="36" viewBox="0 0 1086 1086"  style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
                     <g transform="matrix(1,0,0,1,-533,-10682)">
                         <g transform="matrix(1,0,0,1,32.443,-0.91335)">
                             <g transform="matrix(4.69247,0,0,4.15935,-2380.49,10146)">
