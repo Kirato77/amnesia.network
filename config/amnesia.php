@@ -13,7 +13,7 @@ return [
             "name" => "Pierre-Louis Lefèvre",
             "role" => "CTO",
             "social" => [
-                "website" => "kirato.dev",
+                "website" => "kirato.me",
                 "github" => "Kirato77",
                 "twitter" => "justkirato",
                 "reddit" => "kirato77",
