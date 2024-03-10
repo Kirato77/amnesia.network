@@ -14,8 +14,8 @@ const Card: FunctionComponent<CardProps> = (props) => {
                 <div>
                     <img class="rounded-full h-32 w-32 mb-6 text-center mx-auto" src={"/assets/" + props.username + ".png"}/>
                     <div class="text-4xl text-center font-mono font-extrabold text-gray-900 dark:text-white">{props.username}</div>
-                    <div class="mt-2 text-xl text-center font-mono font-bold text-gray-900 dark:text-white">{props.name}</div>
-                    <div class='text-xl text-center text-gray-600 dark:text-gray-200 font-inter font-medium mt-2'>{props.role}</div>
+                    {/*<div class="mt-2 text-xl text-center font-mono font-bold text-gray-900 dark:text-white">{props.name}</div>*/}
+                    {/*<div class='text-xl text-center text-gray-600 dark:text-gray-200 font-inter font-medium mt-2'>{props.role}</div>*/}
                     {
                         props.social &&
                         <div class='flex justify-center mt-2'>
